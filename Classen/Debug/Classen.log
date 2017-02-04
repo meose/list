@@ -1,4 +1,5 @@
-﻿  Source.cpp
-x:\cloud\projects\cp\classen\classen\customlist.h(106): warning C4715: 'CustomList::InsertDelEnd': not all control paths return a value
+﻿  CustomList.cpp
+x:\cloud\projects\cp\classen\classen\customlist.cpp(99): warning C4715: 'CustomList::InsertDelEnd': not all control paths return a value
+x:\cloud\projects\cp\classen\classen\customlist.cpp(134): warning C4715: 'CustomList::Len': not all control paths return a value
   Classen.vcxproj -> X:\Cloud\Projects\Cp\Classen\Debug\Classen.exe
   Classen.vcxproj -> X:\Cloud\Projects\Cp\Classen\Debug\Classen.pdb (Full PDB)

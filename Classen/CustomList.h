@@ -9,18 +9,19 @@ public:
 	Pointer* TMP0;
 	Pointer* TMP1;
 	Pointer** TMP2;
-	
+	bool flag;
+
 	int *legth;
 	int Len();
 	CustomList();
 	~CustomList();
 	void Output();
-	void Append(const int &);
-	void InsertBefore(const int &);
-	void Insert(const int &, const int &);
-	void Delete(const int &);
+	int Append(const int &);
+	int InsertBefore(const int &);
+	int Insert(const int &, const int &);
+	int Delete(const int &);
+	int Free();
 private:
 	int InsertDelInception(char, const int &);
 	int InsertDelEnd(char, const int &);
-	void Free();
 };
